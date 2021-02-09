@@ -14,6 +14,7 @@
 * Gson
 
 ## Launch
+Before launch you must paste your api key into variable ```API_KEY``` in ```Weatherservice class``` which is in  ```package Service``` after this
 Type in your browser ```http://localhost:8080/show```
 Enter your city and press enter
 after while you will see weather forecast
