@@ -13,7 +13,7 @@ import java.net.URLConnection;
 @Service
 public class weatherservice {
 
-    private String API_KEY = "d6072614c06005c471c66bdc8935f97b";
+    private String API_KEY = "YOUR_API_KEY"; // you must generate your api key :D
     private String url = "http://api.openweathermap.org/data/2.5/weather?";
     private String city = "Warszawa";
     private String filledUrl = url + "appid=" + API_KEY + "&q=" + city;
